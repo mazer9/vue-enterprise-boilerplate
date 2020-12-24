@@ -25,15 +25,7 @@ yarn
 pipenv install --dev && pipenv shell
 python manage.py migrate
 
-# 4. Replace this README's CI badge with a note about when you started
-# and a link to a compare URL, so that you can always get an overview
-# of new features added to the boilerplate since you cloned.
-node _start.js
-
-# 5. Delete the start script, as there can be only one beginning.
-rm _start.js
-
-# 6. Read the documentation linked below for "Setup and development".
+# 4. Read the documentation linked below for "Setup and development".
 ```
 
 ## Documentation
