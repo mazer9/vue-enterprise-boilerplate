@@ -28,6 +28,10 @@ Then update the following files to suit your application:
 ```bash
 # Install dependencies from package.json
 yarn install
+
+# Install Backend packages
+pipenv install --dev && pipenv shell
+python manage.py migrate
 ```
 
 ## Dev server
@@ -45,6 +49,9 @@ yarn dev --open
 # Launch the dev server with the Cypress client for
 # test-driven development in a friendly interface
 yarn dev:e2e
+
+# From another tab in the same directory
+python manage.py runserver
 ```
 
 ### Developing with the production API
